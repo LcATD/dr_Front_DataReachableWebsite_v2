@@ -1,0 +1,24 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry",
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ],
+        "@babel/preset-react",
+        "@babel/preset-typescript",
+        "jest"
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-transform-runtime",
+        "macros"
+    ]
+    
+}
